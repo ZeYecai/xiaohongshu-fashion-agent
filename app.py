@@ -149,7 +149,6 @@ if __name__ == "__main__":
                  label="点击下载数据",
     data="你的文件内容",
     file_name="fashion_data.txt",
-    mime="text/plain"
-)
-                df.to_csv(index=False, encoding="utf-8-sig"),
+    mime="text/plain")
+df.to_csv(index=False, encoding="utf-8-sig"),
                 "女装数据.csv"
