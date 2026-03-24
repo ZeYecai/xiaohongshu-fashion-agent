@@ -146,6 +146,10 @@ if __name__ == "__main__":
             show_dashboard(df)
 
             st.download_button(
-                "下载数据.csv",
+                 label="点击下载数据",
+    data="你的文件内容",
+    file_name="fashion_data.txt",
+    mime="text/plain"
+)
                 df.to_csv(index=False, encoding="utf-8-sig"),
                 "女装数据.csv"
