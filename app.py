@@ -150,5 +150,4 @@ if __name__ == "__main__":
     data="你的文件内容",
     file_name="fashion_data.txt",
     mime="text/plain")
-df.to_csv(index=False, encoding="utf-8-sig"),
-                "女装数据.csv"
+df.to_csv("女装数据.csv", index=False, encoding="utf-8-sig")
